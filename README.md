@@ -8,7 +8,7 @@ I am following a structured approach to learning DevOps, covering key concepts s
 - [**02-Prerequisites**](./02-Prerequisites/) ⚙️
 - [**03-VM-Setup-Vagrant**](./03-VM-Setup-Vagrant/) 💻  
 - [**04-Linux**](./04-Linux/) 🐧  
-- [**05-Networking**](./05-Networking/) ⛓️‍💥  
+- [**05-Networking**](./05-Networking/) ⛓️‍💥
 - [**06-Docker**](./06-Docker/) 🐳 
 
 ## 📂 Repository Structure  
