@@ -41,7 +41,7 @@ Popular choices include **Oracle VirtualBox** and **VMware Workstation** for a b
 # Installing Virtual Machines
 There are two ways to install virtual machines:
 
-### 1. Manually
+## 1. Manually
 We can manually install VMs in hypervisor software like VirtualBox, VMware Workstation, etc.
 
 #### Manual Installation Steps:
@@ -71,7 +71,7 @@ We can manually install VMs in hypervisor software like VirtualBox, VMware Works
 6. **Reboot the VM:**
    - Once installed, reboot the VM and remove the ISO file.
 
-### 2. Automatically
+## 2. Automatically
 To install Linux automatically in hypervisor software, we can use some tools like:
 
 | Tool       | Suitable For            | Primary Use Case                 |

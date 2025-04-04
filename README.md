@@ -6,9 +6,9 @@ Welcome to my **DevOps Learning** repository! This repository is my personal log
 I am following a structured approach to learning DevOps, covering key concepts such as:  
 - [**01-Introduction**](./01-Introduction/) 📄
 - [**02-Prerequisites**](./02-Prerequisites/) ⚙️
-- [**03-VM-Setup-Vagrant**](./03-VM-Setup-Vagrant/) 💻  
+- [**03-VM-Setup**](./03-VM-Setup/) 💻  
 - [**04-Linux**](./04-Linux/) 🐧  
-- [**05-Networking**](./05-Networking/) ⛓️‍💥
+- [**05-Vagrant**](./05-Vagrant/) ✌️
 - [**06-Docker**](./06-Docker/) 🐳 
 
 ## 📂 Repository Structure  
@@ -17,9 +17,9 @@ Each topic has its own directory containing relevant notes, practice exercises, 
 📦 DevOps-Learning-Journey  
  ┣ 📂 01-Introduction
  ┣ 📂 02-Prerequisites
- ┣ 📂 03-VM-Setup-Vagrant
+ ┣ 📂 03-VM-Setup
  ┣ 📂 04-Linux
- ┣ 📂 05-Networking
+ ┣ 📂 05-Vagrant
  ┣ 📂 06-Docker
 📜 README.md  
 ```
