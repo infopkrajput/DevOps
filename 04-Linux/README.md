@@ -26,7 +26,7 @@ Linux is widely used due to several advantages:
 
 # Linux Architecture
 
-![Linux Architecture](image.png)
+![Linux Architecture](images/linux_architecture.png)
 
 ## Components of Linux Architecture
 
@@ -51,3 +51,77 @@ Linux is widely used due to several advantages:
 The Linux architecture follows a layered structure where users interact with applications and commands, which communicate with the shell. The shell, in turn, interacts with the kernel, which manages the hardware.
 
 ---
+
+
+## What is the Kernel?  
+The **kernel** is the core program of the operating system that has complete control over the system.  
+Its job is to manage communication between **hardware** and **software** to allocate resources for tasks.  
+A complete Linux system consists of:  
+- **Kernel**  
+- **GNU system utilities & libraries**  
+- **Management scripts & installation scripts**  
+
+## What is a Linux Distribution?  
+A **Linux distribution (distro)** is a version of Linux that includes the Linux kernel and additional software.  
+Popular distributions include:  
+- **Ubuntu**  
+- **Fedora**  
+- **Kali Linux**  
+- **Debian**  
+
+---
+
+# History of Linux  
+In **1991**, Linus Torvalds, a student from Finland, created Linux as an alternative to **UNIX**.  
+He released it for free, and developers worldwide contributed to improving it.  
+Over time, Linux gained popularity due to its **reliability, low cost, and flexibility**.  
+Today, Linux runs on devices such as:  
+- Computers  
+- Smartphones  
+- TVs  
+- Smart gadgets  
+
+---
+
+# Most Used Linux Distros in IT Industry  
+### RPM-based:  
+- **RHEL** (Red Hat Enterprise Linux)  
+- **CentOS**  
+- **Oracle Linux**  
+
+### Debian-based:  
+- **Ubuntu Server**  
+- **Kali Linux**  
+
+## Different Linux Distributions  
+
+### Popular Desktop Linux OS  
+- **Ubuntu Linux**  
+- **Linux Mint**  
+- **Arch Linux**  
+- **Fedora**  
+- **Debian**  
+- **OpenSUSE**  
+
+### Popular Server Linux OS  
+- **Red Hat Enterprise Linux (RHEL)**  
+- **Ubuntu Server**  
+- **CentOS**  
+- **SUSE Enterprise Linux**  
+
+---
+
+# Special Character Meanings in Linux  
+
+| Symbol | Name | Description |
+|--------|------|------------|
+| `~` | Tilde | Indicates Home Directory |
+| `*` | Star | Wildcard Matches Anything |
+| `?` | Question mark | Wildcard Matches any character |
+| `&` | Ampersand | Run a job in background and redirect error |
+| `#` | Hash | Used for commenting in configuration files and scripts |
+| `%` | Percentage | Wildcard Matches Anything including extensions |
+| `/` | Forward Slash | Indicates Root Directory |
+
+---
+
