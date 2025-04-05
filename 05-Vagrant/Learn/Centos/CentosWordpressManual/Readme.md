@@ -153,5 +153,3 @@ http://192.168.56.17
 - You can access MySQL anytime using `mysql -u root -p`
 
 ---
-
-Would you like a ready-made `README.md` for this manual setup too?
