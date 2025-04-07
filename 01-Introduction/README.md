@@ -103,3 +103,5 @@ A **small startup creating a mobile game** may use the Big Bang model to experim
 - **V-Model (Validation & Verification)** – Similar to Waterfall but with a strict focus on testing at every stage (e.g., medical software development).  
 
 ---
+
+# 🏠[HOME](../Readme.md)
