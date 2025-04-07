@@ -16,3 +16,4 @@ vagrant init centos/stream9 --box-version 20250310.0
 ```bash
 vagrant init generic/centos9s --box-version 4.3.12
 ```
+    

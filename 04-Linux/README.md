@@ -1,127 +1,89 @@
-# Linux
+# index 
 
-## What is Linux?
-Linux is an open-source operating system (OS) that powers a wide range of devices, including smart cars, Android devices, supercomputers, home appliances, enterprise servers, and more. In simple terms, an operating system is software that brings a machine to life by managing its hardware and resources.
+### ✅ [Introduction to Linux](./topics/01-introduction-to-linux.md)
+- What is Linux?
+- History and evolution
+- Open-source concept
 
-Linux is known for its flexibility, security, and community-driven development. It allows users to control every aspect of the system, modify source code, and install only the required software. The first version of Linux was released on September 17, 1991.
+### ✅ [Linux Distributions](./topics/02-linux-distributions.md)
+- Popular distros: Ubuntu, Fedora, Arch, etc.
+- Differences: RPM vs DEB
+- Choosing the right distro
 
-## What Does Open-Source Mean?
-Open-source software is software whose source code is freely available to the public. The Free Software Foundation defines open-source freedoms as:
+### ✅ [Installation & Setup](./topics/03-installation-setup.md)
+- Creating bootable USB
+- Installing Linux (dual boot / VM)
+- First login and basic tour
 
-- The freedom to run the program for any purpose.
-- The freedom to study and modify the source code.
-- The freedom to redistribute the program.
-- The freedom to create derivative programs.
+### ✅ [Linux File System](./topics/04-linux-file-system.md)
+- Directory structure
+- Important folders and their roles
+- Absolute vs relative paths
 
-## Why Use Linux?
-Linux is widely used due to several advantages:
-
-- **Open-Source:** Free to use and modify.
-- **Community Support:** A large global community provides support and improvements.
-- **Highly Customizable:** Users can tailor the OS to their needs.
-- **Server Usage:** Most enterprise servers run on Linux.
-- **DevOps Integration:** Many DevOps tools are designed to work with Linux.
-- **Automation:** Linux is widely used for scripting and automation tasks.
-- **Security:** Known for its strong security and stability.
-
-# Linux Architecture
-
-![Linux Architecture](images/linux_architecture.png)
-
-## Components of Linux Architecture
-
-1. **Hardware**  
-   - The core of the system, including CPU, memory, and input/output devices.
-
-2. **Kernel**  
-   - The heart of Linux, managing hardware resources, process scheduling, and system calls.
-
-3. **Shell**  
-   - Acts as an interface between the user and the kernel.
-   - Interprets user commands and executes them.
-
-4. **Applications & Commands**  
-   - Applications: Software like text editors, compilers, and utilities.
-   - Commands: Examples include `vi`, `cd`, `grep`, `date`, and `a.out`.
-
-5. **Users**  
-   - Multiple users (User 1, User 2, User 3, ..., User n) interact with the system through the shell.
-
-## Summary
-The Linux architecture follows a layered structure where users interact with applications and commands, which communicate with the shell. The shell, in turn, interacts with the kernel, which manages the hardware.
-
----
+### ✅ [Basic Linux Commands](./topics/05-basic-commands.md)
+- Navigation: `ls`, `cd`, `pwd`, `tree`
+- File handling: `touch`, `cp`, `mv`, `rm`, `cat`
+- Help commands: `man`, `--help`
 
 
-## What is the Kernel?  
-The **kernel** is the core program of the operating system that has complete control over the system.  
-Its job is to manage communication between **hardware** and **software** to allocate resources for tasks.  
-A complete Linux system consists of:  
-- **Kernel**  
-- **GNU system utilities & libraries**  
-- **Management scripts & installation scripts**  
+### ✅ [File Permissions & Ownership](./topics/06-file-permissions.md)
+- Understanding `chmod`, `chown`, `chgrp`
+- Permission types: rwx
+- Special permissions: SUID, SGID, Sticky bit
 
-## What is a Linux Distribution?  
-A **Linux distribution (distro)** is a version of Linux that includes the Linux kernel and additional software.  
-Popular distributions include:  
-- **Ubuntu**  
-- **Fedora**  
-- **Kali Linux**  
-- **Debian**  
+### ✅ [Users & Groups Management](./topics/07-users-groups.md)
+- Add/delete users and groups
+- Switching users and setting permissions
 
----
+### ✅ [Shell & Scripting](./topics/08-shell-scripting.md)
+- Introduction to Bash shell
+- Writing basic shell scripts
+- Variables, conditionals, loops
 
-# History of Linux  
-In **1991**, Linus Torvalds, a student from Finland, created Linux as an alternative to **UNIX**.  
-He released it for free, and developers worldwide contributed to improving it.  
-Over time, Linux gained popularity due to its **reliability, low cost, and flexibility**.  
-Today, Linux runs on devices such as:  
-- Computers  
-- Smartphones  
-- TVs  
-- Smart gadgets  
+### ✅ [Package Management](./topics/09-package-management.md)
+- APT (Debian-based)
+- YUM / DNF (RHEL-based)
+- Installing, updating, and removing software
 
----
+### ✅ [Processes & Jobs](./topics/10-processes-jobs.md)
+- Foreground & background processes
+- `ps`, `top`, `htop`, `kill`, `nice`, `jobs`, `fg`, `bg`
 
-# Most Used Linux Distros in IT Industry  
-### RPM-based:  
-- **RHEL** (Red Hat Enterprise Linux)  
-- **CentOS**  
-- **Oracle Linux**  
+### ✅ [Networking Basics](./topics/11-networking.md)
+- Checking IPs: `ifconfig`, `ip`, `ping`, `netstat`, `ss`
+- SSH basics
+- File transfer using SCP and SFTP
 
-### Debian-based:  
-- **Ubuntu Server**  
-- **Kali Linux**  
 
-## Different Linux Distributions  
+### ✅ [Linux Services & Systemd](./topics/12-services-systemd.md)
+- Start/stop services
+- `systemctl` and service units
+- Enable/disable on boot
 
-### Popular Desktop Linux OS  
-- **Ubuntu Linux**  
-- **Linux Mint**  
-- **Arch Linux**  
-- **Fedora**  
-- **Debian**  
-- **OpenSUSE**  
+### ✅ [Disk & Partition Management](./topics/13-disk-management.md)
+- `df`, `du`, `mount`, `umount`, `fdisk`, `lsblk`
+- Filesystems: ext4, xfs, etc.
 
-### Popular Server Linux OS  
-- **Red Hat Enterprise Linux (RHEL)**  
-- **Ubuntu Server**  
-- **CentOS**  
-- **SUSE Enterprise Linux**  
+### ✅ [Crontab & Scheduling Tasks](./topics/14-crontab.md)
+- Scheduling with `cron` and `at`
+- Editing user crontab
 
----
+### ✅ [Logs & Monitoring](./topics/15-logs-monitoring.md)
+- `journalctl`, `dmesg`, `/var/log`
+- Basic log troubleshooting
 
-# Special Character Meanings in Linux  
+### ✅ [Security Basics](./topics/16-security-basics.md)
+- Firewall (UFW/iptables)
+- SSH hardening
+- File and user security
 
-| Symbol | Name | Description |
-|--------|------|------------|
-| `~` | Tilde | Indicates Home Directory |
-| `*` | Star | Wildcard Matches Anything |
-| `?` | Question mark | Wildcard Matches any character |
-| `&` | Ampersand | Run a job in background and redirect error |
-| `#` | Hash | Used for commenting in configuration files and scripts |
-| `%` | Percentage | Wildcard Matches Anything including extensions |
-| `/` | Forward Slash | Indicates Root Directory |
 
----
+### ✅ [Linux for DevOps](./topics/17-devops-linux.md)
+- Linux commands in CI/CD
+- Docker on Linux
+- Using Linux in Jenkins, Ansible
 
+### ✅ [Linux on Cloud](./topics/18-cloud-linux.md)
+- Linux servers on AWS/GCP/Azure
+- SSH key authentication
+- Cloud CLI tools on Linux

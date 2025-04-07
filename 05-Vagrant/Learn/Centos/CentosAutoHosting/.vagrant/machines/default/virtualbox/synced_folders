@@ -1,1 +1,0 @@
-{"rsync":{"/vagrant":{"type":"rsync","guestpath":"/vagrant","hostpath":"C:/Users/pkraj/OneDrive/PK/Study/DevOps/05-Vagrant/Learn/Centos/CentosAutoHosting","disabled":false,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"}}}
