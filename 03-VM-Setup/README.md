@@ -144,3 +144,7 @@ We will use **Vagrant** for managing Linux environments. Although its primary fo
 By using Vagrant, we can efficiently manage virtualized Linux environments for development and testing.
 
 **Vagrant [cheat sheet](https://gist.github.com/infopkrajput/9f2e41203c2a339b850964e39f875d8e)**
+
+---
+
+## < 2️⃣[Prerequisites](../02-Prerequisites/README.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HOME](../README.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4️⃣[Linux](../04-Linux/README.md) >
