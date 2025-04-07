@@ -104,4 +104,4 @@ A **small startup creating a mobile game** may use the Big Bang model to experim
 
 ---
 
-# 🏠[HOME](../Readme.md)
+# 🏠[HOME](../README.md)
