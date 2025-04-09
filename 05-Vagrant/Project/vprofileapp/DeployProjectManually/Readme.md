@@ -64,3 +64,5 @@ This project deploys **6 key services** on **5 VMs** as shown below:
 **📩[3. RabbitMQ Setup (on rmq01)](./3.RabbitMQ.md)**
 
 **🛠️[4. Tomcat Setup (on app01)](./4.Tomcat.md)**
+
+**🛠️[5. Nginx Setup (on web01)](./5.Nginx.md)**
