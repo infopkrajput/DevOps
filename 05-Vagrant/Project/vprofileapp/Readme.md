@@ -1,7 +1,3 @@
-# Vprofile app 
-
-We can deploy this project via manually and automatically 
-
-[Manually Deploy](./DeployProjectManually/)
-
-[Automatically Deploy](./DeployProjectAutomatically/)
+# All Projects
+1. [VProfile app Manually Deploy](./DeployProjectManually/)
+2. [VProfile app Automatically Deploy](./DeployProjectAutomatically/)
