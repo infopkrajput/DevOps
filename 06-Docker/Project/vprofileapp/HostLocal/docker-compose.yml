@@ -3,7 +3,7 @@ services:
   vprodb:
     image: vprocontainers/vprofiledb
     ports:
-      - "3306:3306"
+      - "3307:3306"
     volumes:
       - vprodbdata:/var/lib/mysql
     environment:
