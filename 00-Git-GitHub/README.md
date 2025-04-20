@@ -37,6 +37,6 @@ In DevOps, GitHub is widely used for:
 
 ## Learn
 
-## [Git](./Git/README.md)
+## [Git](./Git/)
 
-## [GitHub](./GitHub/README.md)
+## [GitHub](./GitHub/)
