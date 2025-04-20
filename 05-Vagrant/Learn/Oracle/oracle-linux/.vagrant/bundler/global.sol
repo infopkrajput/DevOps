@@ -1,1 +1,1 @@
-{"dependencies":[["vagrant-hostmanager",["= 1.8.10"]]],"checksum":"46106ad58645c921eb2c3d99f7f12cec3e5b530099859d326ee346ddb9a6b5fb","vagrant_version":"2.4.3"}
+{"dependencies":[["vagrant-hostmanager",["= 1.8.10"]],["vagrant-qemu",["= 0.3.9"]]],"checksum":"14e43871074a134557b803564036597a72c0287bf8f29ae727ea30526aa6ea3b","vagrant_version":"2.4.3"}
