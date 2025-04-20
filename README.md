@@ -9,7 +9,8 @@ I am following a structured approach to learning DevOps, covering key concepts s
 - [**03-VM-Setup**](./03-VM-Setup/) 💻  
 - [**04-Linux**](./04-Linux/) 🐧  
 - [**05-Vagrant**](./05-Vagrant/) ✌️
-- [**06-Docker**](./06-Docker/) 🐳 
+- [**06-Docker**](./06-Docker/) 🐳
+- [**07-Bash-Scripting**](./07-Bash-Scripting/)
 
 ## 📂 Repository Structure  
 Each topic has its own directory containing relevant notes, practice exercises, and projects.
@@ -21,6 +22,7 @@ Each topic has its own directory containing relevant notes, practice exercises, 
  ┣ 📂 04-Linux
  ┣ 📂 05-Vagrant
  ┣ 📂 06-Docker
+ ┣ 📂 07-Bash-Scripting
 📜 README.md  
 ```
 
