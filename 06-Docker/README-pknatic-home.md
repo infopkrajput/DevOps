@@ -2,14 +2,12 @@
 
 Docker is a tool that helps you run applications inside isolated containers. These containers package the app and everything it needs (like libraries and settings) so that it runs the same on any computer.
 
-## Key Points
-
+### Key Points:
 - **Docker Image**: A blueprint for creating containers with your app and its dependencies.
 - **Docker Container**: A running instance of a Docker image.
 - **Docker Hub**: A place to share Docker images.
 
-## Use Cases
-
+### Use Cases:
 1. **Simplified Deployment**: Run apps consistently across different environments.
 2. **Microservices**: Break apps into smaller parts (services), each in its own container.
 3. **CI/CD**: Automate app testing and deployment.
@@ -18,14 +16,13 @@ Docker is a tool that helps you run applications inside isolated containers. The
 6. **Scaling**: Easily add more containers to handle more traffic.
 7. **Development & Testing**: Set up consistent environments for building and testing apps.
 
-## Index
-
-1. [Installation](01-Installation.md)  
-2. [Docker Architecture](02-Docker-Architecture.md)  
-3. [Basic Docker Commands](03-basic-docker-commands.md)  
-4. [How to Use Docker](04-how-to-use-docker.md)  
-5. [Run Images from Docker Hub](05-run-images-from-docker-hub.md)  
-6. [Run Images with Dockerfile](06-run-images-with-Dockerfile.md)  
+### Index
+1. [Installation](#1-installation)  
+2. [Docker Architecture](#2-docker-architecture)  
+3. [Basic Docker Commands](#3-basic-docker-commands)  
+4. [How to Use Docker](#4-how-to-use-docker)  
+5. [Run Images from Docker Hub](#5-run-images-from-docker-hub)  
+6. [Run Images with Dockerfile](#6-run-images-with-dockerfile)  
 7. [Run Images with Docker Compose](#7-run-images-with-docker-compose)  
 8. [Docker Volumes (Data Persistence)](#8-docker-volumes-data-persistence)  
 9. [Docker Networks](#9-docker-networks)  
@@ -40,7 +37,85 @@ Docker is a tool that helps you run applications inside isolated containers. The
 18. [Best Practices in Docker](#18-best-practices-in-docker)  
 19. [Common Docker Errors & Solutions](#19-common-docker-errors--solutions)  
 20. [Docker Cheat Sheet](#20-docker-cheat-sheet)  
+## 1 Installation
 
+How to install Docker on Windows, Linux, and macOS.
+
+- **Windows and Mac:** Download Docker Desktop from the official website and follow the installer.
+- **Linux:** Use terminal commands like `sudo apt install docker.io` for Ubuntu or `sudo yum install docker` for CentOS.
+
+After installation, run `docker --version` to check if Docker is installed properly.
+
+
+[Detailed document](./01-Installation.md)
+
+---
+
+## 2 Docker Architecture
+
+- **Docker Engine:** Core service that runs Docker.
+- **Docker Daemon (`dockerd`):** Listens to Docker API requests and manages Docker objects.
+- **Docker Client (`docker`):** CLI tool used to interact with Docker Daemon.
+- **Docker Registries:** Store Docker images (e.g., Docker Hub).
+- **Images and Containers:** Images are blueprints; containers are live instances of those images.
+
+[Detailed document](./02-Docker-Architecture.md)
+
+---
+
+## 3 Basic Docker Commands
+
+- `docker --version`: Check the installed Docker version.
+- `docker run`: Run a container from an image.
+- `docker ps`: List running containers.
+- `docker stop <container>`: Stop a running container.
+- `docker rm <container>`: Remove a stopped container.
+- `docker rmi <image>`: Remove an image.
+
+These commands help you manage the lifecycle of containers and images.
+
+---
+
+## 4 How to Use Docker
+
+- **Pulling images**: Download images from Docker Hub using `docker pull <image>`.
+- **Creating containers**: Use `docker run` to create and start containers.
+- **Starting/stopping containers**: Use `docker start` and `docker stop`.
+
+Example:
+```bash
+docker run -d -p 8080:80 nginx
+```
+This runs the `nginx` container in detached mode and maps port 80 of the container to 8080 of your machine.
+
+---
+
+## 5 Run Images from Docker Hub
+
+- Use `docker pull nginx` to download the NGINX image.
+- Run it using:
+```bash
+docker run -d -p 8080:80 nginx
+```
+This makes NGINX web server accessible at `http://localhost:8080`.
+
+---
+
+## 6 Run Images with Dockerfile
+
+1. Create a `Dockerfile` with instructions to build your image.
+2. Use:
+```bash
+docker build -t myimage .
+```
+This builds a Docker image from your Dockerfile in the current directory.
+3. Run it with:
+```bash
+docker run -p 5000:5000 myimage
+```
+This starts a container from your custom image.
+
+---
 
 ## 7 Run Images with Docker Compose
 
