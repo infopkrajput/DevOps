@@ -27,6 +27,7 @@ Each topic has its own directory containing relevant notes, practice exercises, 
  ┣ 📂 05-Vagrant
  ┣ 📂 06-Docker
  ┣ 📂 07-Bash-Scripting
+ ┣ 📂 08-AWS
 📜 README.md  
 ```
 
