@@ -2,10 +2,10 @@
 
 ## Table of Contents
 
-- [Introduction]()
-- [Basic Git Concepts]()
-- [Initial Setup]()
-- [Creating and Cloning Repositories]()
+1.[Introduction](Introduction.md)
+2.[Basic Git Concepts](.)
+3.[Initial Setup]()
+4.[Creating and Cloning Repositories]()
 - [Git Workflow]()
 - [Branching and Merging]()
 - [Remote Repositories]()
