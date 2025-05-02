@@ -85,13 +85,3 @@ echo "This line will execute"
 2. Make it executable and run it.
 
 ---
-
-## 📝 Mini Quiz
-
-**Q1.** What does `#!/bin/bash` mean in a script?  
-**Q2.** How do you make a script executable?  
-**Q3.** Write a one-line bash command to print your current username.
-
----
-
-Let me know once you're done with this chapter. Then I’ll share `chapter-02-variables.md`. Happy scripting! 🚀
