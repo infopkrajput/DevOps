@@ -1,10 +1,3 @@
-Nice! You're moving fast, Pushpendra. 🔥  
-Here’s your **`chapter-03-conditionals.md`** file for Chapter 3: Conditional Statements.
-
----
-
-### 📘 `chapter-03-conditionals.md`
-
 # Chapter 3 - Conditional Statements
 
 ---
