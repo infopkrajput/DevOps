@@ -42,5 +42,5 @@ This should display the installed Git version (e.g., `git version 2.37.1`).
    <span style="padding: 8px 16px; background-color: #f0f0f0; color: #999; border-radius: 4px; cursor: not-allowed;">← Previous</span>
   
   
-  <a href="git-installation-configuration.md" style="padding: 8px 16px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 4px;">Next: Installation & Configuration →</a>
+  <a href="./02-Installation-and-configuration.md" style="padding: 8px 16px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 4px;">Next: Installation & Configuration →</a>
 </div>
