@@ -5,7 +5,9 @@
 01. [Introduction](./01-Introduction.md)
 02. [Installation and Configuration](./02-Installation-and-configuration.md)
 03. [Basic Commands](./03-Basic-Commands.md)
-04. [Branching Basics]()
+04. [Branching Basics](./04-Branching-Basics.md)
+05. [Roll back](./05-Rollback.md)
+06. []()
 
 
 ## Git Interview Questions and Answers
